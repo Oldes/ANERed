@@ -1,0 +1,3 @@
+
+SET AIR_SDK=c:\SDKs\AIR23
+

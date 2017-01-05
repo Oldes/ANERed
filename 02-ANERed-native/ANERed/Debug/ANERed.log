@@ -1,0 +1,19 @@
+﻿Build started 12/16/2016 12:05:15 PM.
+     1>Project "c:\dev\GIT\ANERed\02-ANERed-native\ANERed\ANERed.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\ANERed.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D AIRICUEXTENSION_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ANERed.cpp
+         ANERed.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ANERed.dll.embed.manifest.res" Debug\ANERed_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\dev\GIT\ANERed\02-ANERed-native\Debug\ANERed.dll" /INCREMENTAL /NOLOGO /LIBPATH:C:\SDKs\AIR24\lib\win FlashRuntimeExtensions.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ANERed.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\dev\GIT\ANERed\02-ANERed-native\Debug\ANERed.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\dev\GIT\ANERed\02-ANERed-native\Debug\ANERed.lib" /MACHINE:X86 /DLL Debug\ANERed.dll.embed.manifest.res
+         Debug\ANERed.obj
+            Creating library C:\dev\GIT\ANERed\02-ANERed-native\Debug\ANERed.lib and object C:\dev\GIT\ANERed\02-ANERed-native\Debug\ANERed.exp
+     1>LINK : fatal error LNK1123: failure during conversion to COFF: file invalid or corrupt
+     1>Done Building Project "c:\dev\GIT\ANERed\02-ANERed-native\ANERed\ANERed.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.46

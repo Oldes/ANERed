@@ -1,0 +1,1 @@
+@IF EXIST org.redlang.Red.swc DEL org.redlang.Red.swc

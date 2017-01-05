@@ -1,0 +1,12 @@
+<platform xmlns="http://ns.adobe.com/air/extension/22.0"> 
+    <packagedDependencies>
+    </packagedDependencies> 
+    <packagedResources>
+        <!-- comment out this block if not including GPS -->
+        <packagedResource>
+            <packageName>com.amanitadesign</packageName> 
+            <folderName>common-res</folderName> 
+        </packagedResource>
+        
+    </packagedResources>
+</platform>

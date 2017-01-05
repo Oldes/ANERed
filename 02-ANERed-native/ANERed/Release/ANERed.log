@@ -1,0 +1,23 @@
+﻿Build started 1/5/2017 8:43:43 PM.
+     1>Project "C:\dev\GIT\ANERed\02-ANERed-native\ANERed\ANERed.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\ANERed.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\dev\GIT\Red\libRed /Ic:\SDKs\AIR24\include\ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D AIRICUEXTENSION_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ANERed.cpp
+         ANERed.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\dev\GIT\ANERed\02-ANERed-native\build\Release\ANERed.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\dev\GIT\Red\libRed /LIBPATH:C:\SDKs\AIR24\lib\Win FlashRuntimeExtensions.lib libRed.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ANERed.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\dev\GIT\ANERed\02-ANERed-native\build\Release\ANERed.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\dev\GIT\ANERed\02-ANERed-native\build\Release\ANERed.lib" /MACHINE:X86 /DLL Release\ANERed.obj
+            Creating library C:\dev\GIT\ANERed\02-ANERed-native\build\Release\ANERed.lib and object C:\dev\GIT\ANERed\02-ANERed-native\build\Release\ANERed.exp
+         Generating code
+         Finished generating code
+         ANERed.vcxproj -> C:\dev\GIT\ANERed\02-ANERed-native\build\Release\ANERed.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\dev\GIT\ANERed\02-ANERed-native\build\Release\ANERed.dll;#2" /manifest Release\ANERed.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\ANERed.unsuccessfulbuild".
+         Touching "Release\ANERed.lastbuildstate".
+     1>Done Building Project "C:\dev\GIT\ANERed\02-ANERed-native\ANERed\ANERed.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.70
