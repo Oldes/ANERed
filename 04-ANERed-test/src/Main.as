@@ -40,7 +40,9 @@ package
 			
 			log("Testing Red ANE...");
 			log("Red is supported: " + Red.isSupported);
-			log("Hello: " + Red.instance.hello());
+			log("Red: " + Red.instance.redDo('a: 2 b: 21 append "Universe means: " (a * b)'));
+			log("Red: " + Red.instance.redDo('mold not none? find [1 2 3] 2'));
+			
 			stage.addEventListener(KeyboardEvent.KEY_DOWN, onKey);
 		}
 		

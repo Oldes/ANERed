@@ -79,7 +79,7 @@ package org.redlang
 		//
 		//----------------------------------------
 		
-		public function hello(): Boolean { return extContext.call("Hello") as Boolean; }
+		public function redDo(code:String = "") { return extContext.call("redDo", code); }
 	}
 }
 
