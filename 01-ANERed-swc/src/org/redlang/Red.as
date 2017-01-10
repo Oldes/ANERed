@@ -7,6 +7,8 @@ package org.redlang
 	import flash.events.Event;
 	import flash.events.StatusEvent;
 	
+	import org.redlang.events.RedPrintEvent;
+	
 	public class Red extends EventDispatcher
 	{
 		
@@ -37,22 +39,16 @@ package org.redlang
 		}
 
 		private function onStatusHandler( event:StatusEvent ):void {
-			trace("onStatusHandler: " + event)
+			//trace("onStatusHandler: " + event)
 			var e:Event;
-			/*
 			switch(event.code) {
-				case AlertDialogEvent.ON_ALERT_DIALOG:
-					e = new AlertDialogEvent(event.code, event.level);
+				case RedPrintEvent.RED_PRINT:
+					e = new RedPrintEvent(event.code, event.level);
 					break;
-				case StateChangedEvent.ON_STATE_CHANGED:
-					e = new StateChangedEvent(event.code, event.level);
-					break;
-			}*/
+			}
 			if(e) {
 				this.dispatchEvent(e);
 			}
-			//
-			//
 		}
 
 		
@@ -79,7 +75,8 @@ package org.redlang
 		//
 		//----------------------------------------
 		
-		public function redDo(code:String = "") { return extContext.call("redDo", code); }
+		public function redDo(code:String = ""):Object { return extContext.call("redDo", code); }
+		public function redGetLastError():String { return extContext.call("redGetLastError") as String; }
 	}
 }
 

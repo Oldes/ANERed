@@ -29,7 +29,7 @@ set AIR_NOANDROIDFLAIR=true
 @echo on
 java -jar %AIR_SDK%\lib\adt.jar -package ^
 	-storetype pkcs12 -keystore Test.p12 -storepass fd ^
-	-target bundle %BUILD_NAME%  application.xml AIR-Red.swf libRed.dll icons/* ^
+	-target bundle %BUILD_NAME%  application.xml AIR-Red.swf libRed.dll icons/* Test.red ^
 	-extdir ../03-ANERed-ane/
 
 @echo off
