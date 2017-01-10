@@ -11,11 +11,18 @@ What is AIR
 
 What is ANERed
 --------------
-*ANERed* is experiment with embedding Red library into AIR context using AIR Native extension.
+*ANERed* is experiment with embedding Red library into AIR context using [AIR Native extension](http://www.adobe.com/devnet/air/native-extensions-for-air.html).
 
 This repository contains sources and script for building the [ANERed extension](https://github.com/Oldes/ANERed/blob/master/03-ANERed-ane/ANERed.ane) and also example test AIR app which contains very simple console for testing Red commands directly from AIR. Here is how it can look like:
 
 ![Screenshot](https://raw.githubusercontent.com/Oldes/ANERed/master/Test-app-screenshot.png)
+
+It is still having some issues.. like the values returned from Red are always just a string and also as the output from Red's ```print``` is passed using async call, which is the only way probably.. so the output may be out off sync with input. There may be problems with Red ```ask``` function, ```View``` blocking and similar cases, but that is probably ok.. I don't expect someone would be using the library as real console in AIR. 
+
+To build ANERed and the test app, you must download [AIR SDK](http://www.adobe.com/devnet/air/air-sdk-download.html) and modify the ```setup.bat``` script.
+
+_Using Red directly is imho more fun!_
+Follow Red development at _GitHub_: https://github.com/red/red and or discuss it at _Gitter_: https://gitter.im/red/red
 
 - - - - - - - - - - - - -
 Copyright (c) 2017, Oldes
