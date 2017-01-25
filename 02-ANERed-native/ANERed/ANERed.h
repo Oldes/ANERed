@@ -16,6 +16,11 @@
 
 
 extern "C" {
+
+	static const char *OBJECT_TYPES[] = {
+		"Object", "Number", "String", "ByteArray", "Array", "Vector", "BitmapData", "Boolean", "Null"
+	};
+
 	FREObject ANERed_Init(FREContext ctx, void* funcData, uint32_t argc, FREObject argv[]);
 	FREObject ANERed_Hello(FREContext ctx, void* funcData, uint32_t argc, FREObject argv[]);
 
