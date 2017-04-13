@@ -24,7 +24,7 @@ extern "C" {
 			FREObjectType objectType;
 			if ( FRE_OK != FREGetObjectType( exception, &objectType ) )
 			{
-				sendPrint("but failed to obtain information about its type\n");
+				sendPrint("Exception, but failed to obtain information about its type\n");
 				return true;
 			}
 			// If the exception object is valid,
@@ -36,7 +36,7 @@ extern "C" {
 
 				if ( FRE_OK != FRECallObjectMethod(exception,(const uint8_t *) "toString",	0, NULL, &exceptionTextAS, &newException ) )
 				{
-					sendPrint("but failed to obtain information about it\n");
+					sendPrint("Exception, but failed to obtain information about it\n");
 					return true;
 				}
 				
